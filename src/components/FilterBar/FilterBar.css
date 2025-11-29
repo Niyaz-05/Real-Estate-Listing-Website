@@ -1,0 +1,19 @@
+.filter-container {
+  display: flex;
+  gap: 15px;
+}
+
+.filter-container select,
+.filter-container button {
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.filter-container button {
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

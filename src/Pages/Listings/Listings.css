@@ -1,0 +1,23 @@
+.listings-page {
+  padding: 40px 70px;
+}
+
+.listings-header {
+  margin-bottom: 25px;
+}
+
+.listings-header h1 {
+  font-size: 32px;
+}
+
+.listings-header p {
+  margin-top: 5px;
+  color: gray;
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
