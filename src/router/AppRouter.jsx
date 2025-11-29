@@ -5,6 +5,8 @@ import { AddProperty } from "../Pages/AddProperty/AddProperty";
 import { Login } from "../Pages/Login/Login";
 import { PropertyDetails } from "../Pages/PropertyDetails/PropertyDetails";
 import { Navbar } from "../components/Navbar/Navbar";
+import { PropertyDetails } from "../Pages/PropertyDetails/PropertyDetails";
+
 
 export const AppRouter = () => {
   return (
@@ -16,6 +18,8 @@ export const AppRouter = () => {
         <Route path="/property/:id" element={<PropertyDetails />} />
         <Route path="/add-property" element={<AddProperty />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/property/:id" element={<PropertyDetails />} />
+
       </Routes>
     </BrowserRouter>
   );

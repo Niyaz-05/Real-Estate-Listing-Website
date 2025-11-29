@@ -1,0 +1,57 @@
+.details-page {
+  padding-bottom: 50px;
+}
+
+/* BANNER IMAGE */
+.banner img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 0 0 12px 12px;
+}
+
+.details-content {
+  padding: 40px 70px;
+}
+
+.location {
+  color: gray;
+  margin-top: 4px;
+}
+
+.price {
+  margin-top: 10px;
+  color: #4c6ef5;
+}
+
+.section {
+  margin-top: 35px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.amenities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.amenities li {
+  background: #f3f4f6;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.contact-btn {
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-size: 18px;
+  margin-top: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
